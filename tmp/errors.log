@@ -332,3 +332,11 @@
 =================
 [2019-05-15 18:28:34] Текст ошибки: Страница не найдена | Файл: W:\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
 =================
+[2019-05-15 23:22:08] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: W:\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 36
+=================
+[2019-05-15 23:39:57] Текст ошибки: Страница не найдена | Файл: W:\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2019-05-15 23:41:19] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: W:\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 36
+=================
+[2019-05-15 23:41:23] Текст ошибки: Страница не найдена | Файл: W:\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
