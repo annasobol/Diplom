@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
+    <base href="/">
     <?=$this->getMeta();?>
 <!--    <title>Watch TIME</title>-->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
@@ -47,7 +48,7 @@
 <!--top-header-->
 <!--start-logo-->
 <div class="logo">
-    <a href="index.html"><h1>Watch TIME</h1></a>
+    <a href="<?=PATH;?>"><h1>Watch TIME</h1></a>
 </div>
 <!--end-logo-->
 <!--bottom-header-->
@@ -62,86 +63,7 @@
                         ]); ?>
                     </div>
                 </div>
-<!--                <div class="top-nav">-->
-<!--                    <ul class="memenu skyblue"><li class="active"><a href="index.html">Home</a></li>-->
-<!--                        <li class="grid"><a href="#">Women</a>-->
-<!--                            <div class="mepanel">-->
-<!--                                <div class="row">-->
-<!--                                    <div class="col1 me-one">-->
-<!--                                        <h4>Brand</h4>-->
-<!--                                        <ul>-->
-<!--                                            <li><a href="products.html">New Arrivals</a></li>-->
-<!--                                            <li><a href="products.html">Patek Philippe</a></li>-->
-<!--                                            <li><a href="products.html">Vacheron Constantin</a></li>-->
-<!--                                            <li><a href="products.html">Rolex</a></li>-->
-<!--                                            <li><a href="products.html">Omega</a></li>-->
-<!--                                            <li><a href="products.html">Chopard</a></li>-->
-<!--                                            <li><a href="products.html">Breguet</a></li>-->
-<!--                                            <li><a href="products.html">A. Lange & Söhne</a></li>-->
-<!--                                        </ul>-->
-<!--                                    </div>-->
-<!--                                    <div class="col1 me-one">-->
-<!--                                        <h4>Material</h4>-->
-<!--                                        <ul>-->
-<!--                                            <li><a href="products.html">Gold</a></li>-->
-<!--                                            <li><a href="products.html">Silver</a></li>-->
-<!--                                            <li><a href="products.html">Rose Gold</a></li>-->
-<!--                                            <li><a href="products.html">Plastic</a></li>-->
-<!--                                            <li><a href="products.html">Accessories</a></li>-->
-<!--                                        </ul>-->
-<!--                                    </div>-->
-<!--                                    <div class="col1 me-one">-->
-<!--                                        <h4>Type</h4>-->
-<!--                                        <ul>-->
-<!--                                            <li><a href="products.html">Luxary</a></li>-->
-<!--                                            <li><a href="products.html">Waterproof</a></li>-->
-<!--                                        </ul>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </li>-->
-<!--                        <li class="grid"><a href="#">Men</a>-->
-<!--                            <div class="mepanel">-->
-<!--                                <div class="row">-->
-<!--                                    <div class="col1 me-one">-->
-<!--                                        <h4>Brand</h4>-->
-<!--                                        <ul>-->
-<!--                                            <li><a href="products.html">New Arrivals</a></li>-->
-<!--                                            <li><a href="products.html">Patek Philippe</a></li>-->
-<!--                                            <li><a href="products.html">Vacheron Constantin</a></li>-->
-<!--                                            <li><a href="products.html">Rolex</a></li>-->
-<!--                                            <li><a href="products.html">Omega</a></li>-->
-<!--                                            <li><a href="products.html">Chopard</a></li>-->
-<!--                                            <li><a href="products.html">Breguet</a></li>-->
-<!--                                            <li><a href="products.html">A. Lange & Söhne</a></li>-->
-<!--                                        </ul>-->
-<!--                                    </div>-->
-<!--                                    <div class="col1 me-one">-->
-<!--                                        <h4>Material</h4>-->
-<!--                                        <ul>-->
-<!--                                            <li><a href="products.html">Gold</a></li>-->
-<!--                                            <li><a href="products.html">Silver</a></li>-->
-<!--                                            <li><a href="products.html">Rose Gold</a></li>-->
-<!--                                            <li><a href="products.html">Plastic</a></li>-->
-<!--                                            <li><a href="products.html">Accessories</a></li>-->
-<!--                                        </ul>-->
-<!--                                    </div>-->
-<!--                                    <div class="col1 me-one">-->
-<!--                                        <h4>Type</h4>-->
-<!--                                        <ul>-->
-<!--                                            <li><a href="products.html">Luxary</a></li>-->
-<!--                                            <li><a href="products.html">Waterproof</a></li>-->
-<!--                                        </ul>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </li>-->
-<!--                        <li class="grid"><a href="typo.html">Blog</a>-->
-<!--                        </li>-->
-<!--                        <li class="grid"><a href="contact.html">Contact</a>-->
-<!--                        </li>-->
-<!--                    </ul>-->
-<!--                </div>-->
+
                 <div class="clearfix"> </div>
             </div>
             <div class="col-md-3 header-right">
@@ -154,7 +76,7 @@
         </div>
     </div>
 </div>
-<!--bottom-header-->
+
 
 <div class="content">
     <?=$content;?>
