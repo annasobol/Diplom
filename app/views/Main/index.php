@@ -42,9 +42,9 @@
 </div>
 <?php endif; ?>
 <!--about-end-->
-<div class="sale_product">
-    <h5>Sale Products</h5>
-</div>
+<!--<div class="sale_product">-->
+<!--    <h5>Sale Products</h5>-->
+<!--</div>-->
 <!--product-starts-->
 <?php if($this): ?>
 <?php $curr = \ishop\App::$app->getProperty('currency');?>
