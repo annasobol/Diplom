@@ -309,7 +309,7 @@ span.simpleCart_total {
   height: 0;
   left: 13px;
   right: 0;
-  top: 36px;
+  top: 27px;
   background: #CA6D4C;
   overflow: hidden;
   opacity: 0;
@@ -2679,3 +2679,9 @@ span.name {
     font-size: 12px; } }
 
 /*--media-quaries-end-here--*/
+#cart table img{
+  height: 100px;
+}
+.del-item{
+  cursor: pointer;
+}

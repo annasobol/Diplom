@@ -60,7 +60,7 @@
                                 <del><?=$curr['symbol_left'];?><?=$product->old_price * $curr['value'];?><?=$curr['symbol_right'];?></del>
                             <?php endif; ?>
                             <?=$product->content; ?>
-
+                            <?php if ($mods): ?>
                             <p id="pppppp">Olivia Burton Big Dial OB14BD27 is a beautiful and attractive Ladies watch. Case material is PVD rose plating while the dial colour is Rose. This watch is market as water resistant. It means it can withstand slight splashes and rain, but is NOT to be immersed in water. The watch is shipped with an original box and a guarantee from the manufacturer.</p>
                             <div class="available">
                                 <ul>
@@ -76,6 +76,7 @@
                                     <div class="clearfix"> </div>
                                 </ul>
                             </div>
+                            <?php endif; ?>
                             <script>
                                 function ppd()
                                 {
