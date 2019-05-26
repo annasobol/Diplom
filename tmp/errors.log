@@ -1012,3 +1012,17 @@
 =================
 [2019-05-26 15:54:07] Текст ошибки: Страница не найдена | Файл: W:\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
 =================
+[2019-05-26 17:12:47] Текст ошибки: Метод app\controllers\SearchController::indexAction не найден | Файл: W:\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 33
+=================
+[2019-05-26 17:13:26] Текст ошибки: Метод app\controllers\SearchController::indexAction не найден | Файл: W:\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 33
+=================
+[2019-05-26 18:08:49] Текст ошибки: Страница не найдена | Файл: W:\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2019-05-26 18:09:56] Текст ошибки: Страница не найдена | Файл: W:\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2019-05-26 18:10:00] Текст ошибки: Страница не найдена | Файл: W:\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2019-05-26 18:10:03] Текст ошибки: Страница не найдена | Файл: W:\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2019-05-26 18:10:10] Текст ошибки: Страница не найдена | Файл: W:\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
