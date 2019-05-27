@@ -28,6 +28,18 @@
                             <?php new \app\widgets\currency\Currency(); ?>
                         </select>
                     </div>
+                    <div class="btn-group">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Account <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <?php if(!empty($_SESSION['user'])): ?>
+                                <li><a href="#">Welcome, <?=h($_SESSION['user']['name']);?></a></li>
+                                <li><a href="user/logout">Exit</a></li>
+                            <?php else: ?>
+                                <li><a href="user/login">Login</a></li>
+                                <li><a href="user/signup">Registration</a></li>
+                            <?php endif; ?>
+                        </ul>
+                    </div>
                     <div class="clearfix"></div>
                 </div>
             </div>
@@ -95,7 +107,6 @@
 
 
 <div class="content">
-<?php //debug($_SESSION);?>
     <?=$content;?>
 </div>
 

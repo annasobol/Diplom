@@ -38,6 +38,12 @@
                             </div>
                         <?php endforeach; ?>
                         <div class="clearfix"></div>
+                        <div class="text-center">
+                            <p>(<?=count($products)?> product(s) from <?=$total;?>)</p>
+                            <?php if($pagination->countPages > 1): ?>
+                                <?=$pagination;?>
+                            <?php endif; ?>
+                        </div>
                     </div>
                 <?php else: ?>
                     <h3>No items in this category)))</h3>

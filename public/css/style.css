@@ -1695,16 +1695,16 @@ h3.m_2 {
 .account-bottom {
     margin-top: 2.2em;
 }
-.account-left input[type="text"],.account-left input[type="password"] {
-    width: 90%;
-    margin: 0px;
-    color: #000;
-    background: none;
-    padding: 8px 10px;
-    outline: none;
-    border: 1px solid #000;
-    font-family: 'Lato-Regular';
-    font-size: 14px;
+.account-left input[type="text"],.account-left input[type="password"],.account-left input[type="email"] {
+  width: 90%;
+  margin: 0px;
+  color: #000;
+  background: none;
+  padding: 8px 10px;
+  outline: none;
+  border: 1px solid #000;
+  font-family: 'Lato-Regular';
+  font-size: 14px;
   margin-bottom:20px;
 }
 .address {
@@ -2782,3 +2782,21 @@ span.twitter-typeahead {
   top: 46px !important;
 }
 /*search*/
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+  background-color: #ca7406;
+  border-color: #ca7406;
+}
+.pagination > li > a, .pagination > li > span {
+  color: #000;
+}
+
+a.dropdown-toggle{
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  top: -2px;
+}
+button.btn.btn-default:hover {
+  background: #ca7406;
+}
