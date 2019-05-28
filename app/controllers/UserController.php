@@ -11,10 +11,19 @@ class UserController extends AppController {
             $user = new User();
             $data = $_POST;
             $user->load($data);
-            debug($user);
-            die;
+            if(!$user->validate($data) || !$user->checkUnique()){
+                $user->getErrors();
+            }else{
+                $user->attributes['password'] = password_hash($user->attributes['password'], PASSWORD_DEFAULT);
+                if ($user->save('user')){
+                    $_SESSION['success'] = 'You are successfully registered';
+                }else{
+                    $_SESSION['error'] = 'Error!';
+                }
+            }
+            redirect();
         }
-        $this->setMeta('Регистрация');
+        $this->setMeta('Sign up');
     }
 
     public function loginAction(){
