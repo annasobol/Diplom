@@ -2679,7 +2679,8 @@ span.name {
     font-size: 12px; } }
 
 /*--media-quaries-end-here--*/
-#cart table img{
+#cart table img,
+.cart table img{
   height: 100px;
 }
 .del-item{

@@ -227,6 +227,8 @@
 <script src="js/jquery.easydropdown.js"></script>
 <script src="js/responsiveslides.min.js"></script>
 <script src="megamenu/js/megamenu.js"></script>
+<script src="js/pdfmake.min.js"></script>
+<script src="js/script_pdf.js"></script>
 <script>
     // You can also use "$(window).load(function() {"
     $(function () {
