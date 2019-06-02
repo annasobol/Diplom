@@ -77,30 +77,12 @@
                                 </ul>
                             </div>
                             <?php endif; ?>
-                            <script>
-                                function ppd()
-                                {
-                                    //alert(document.getElementById('brand__name').innerHTML);
-                                    var p = document.createElement('p');
-
-                                    document.body.appendChild(p);
-
-                                    docInfo.myText=document.getElementById('brand__name').innerHTML;
-                                    docInfo.content[0].text=document.getElementById('brand__name').innerHTML;
-
-                                    docInfo.content[1].text=document.getElementById('item_price').innerHTML;
-
-                                    docInfo.content[2].text=document.getElementById('pppppp').innerHTML;
-
-                                    // docInfo.content[1].text=document.getElementById('item_price').innerHTML;
-
-
-
-                                    console.dir(docInfo);
-
-                                    p.appendChild(pdfMake.createPdf(docInfo).download('name.pdf'));
-                                }
-                            </script>
+<!--                            <script>-->
+<!--                                function ppd()-->
+<!--                                {-->
+<!--                                    -->
+<!--                                }-->
+<!--                            </script>-->
                             <ul class="tag-men">
                                 <li><span >Category:</span>
                                     <span class="women1"><a href="category/<?=$cats[$product->category_id]['alias']?>"><?=$cats[$product->category_id]['title']?></a></span></li>
@@ -112,7 +94,11 @@
                             </div>
                             <a id="productAdd" data-id="<?=$product->id;?>" href="cart/add?id=<?=$product->id;?>" class="add-cart item_add add-to-cart-link">ADD TO CART</a>
 
-                            <a href="#" class="add-pdf"onclick="ppd();">PDF</a>
+                            <form action="../../../vendor/makepdf.php" method="post">
+<!--                                <a href="makepdf.php" class="add-pdf"onclick="">PDF</a>-->
+                                <button type="submit">PDF</button>
+                            </form>
+
 
                         </div>
                     </div>

@@ -3,7 +3,7 @@
 <head>
     <base href="/">
     <?=$this->getMeta();?>
-<!--    <title>Watch TIME</title>-->
+    <title>Watch TIME</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 
     <link rel="stylesheet" href="megamenu/css/style.css" type="text/css" media="all">
@@ -193,6 +193,7 @@
     </div>
 </div>
 
+<div class="preloader"><img src="images/ring.svg" alt=""></div>
 
 <?php $curr = \ishop\App::$app->getProperty('currency');?>
 <script>
@@ -227,8 +228,8 @@
 <script src="js/jquery.easydropdown.js"></script>
 <script src="js/responsiveslides.min.js"></script>
 <script src="megamenu/js/megamenu.js"></script>
-<script src="js/pdfmake.min.js"></script>
-<script src="js/script_pdf.js"></script>
+<!--<script src="js/pdfmake.min.js"></script>
+<script src="js/script_pdf.js"></script>-->
 <script>
     // You can also use "$(window).load(function() {"
     $(function () {
