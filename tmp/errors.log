@@ -1326,3 +1326,27 @@
 =================
 [2019-06-02 23:29:47] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`wch`.`product`, CONSTRAINT `product_ibfk_1` FOREIGN KEY (`id`) REFERENCES `attribute_product` (`product_id`)) | Файл: W:\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 186
 =================
+[2019-06-03 11:11:42] Текст ошибки: Страница не найдена | Файл: W:\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2019-06-03 11:22:52] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`wch`.`product`, CONSTRAINT `product_ibfk_1` FOREIGN KEY (`id`) REFERENCES `attribute_product` (`product_id`)) | Файл: W:\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 186
+=================
+[2019-06-03 11:52:18] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`wch`.`product`, CONSTRAINT `product_ibfk_1` FOREIGN KEY (`id`) REFERENCES `attribute_product` (`product_id`)) | Файл: W:\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 186
+=================
+[2019-06-03 12:44:26] Текст ошибки: На найден вид W:\domains\ishop2.loc/app/views/admin\Category/edit.php | Файл: W:\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 38
+=================
+[2019-06-03 12:44:32] Текст ошибки: На найден вид W:\domains\ishop2.loc/app/views/admin\Category/edit.php | Файл: W:\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 38
+=================
+[2019-06-03 13:02:14] Текст ошибки: На найден вид W:\domains\ishop2.loc/app/views/admin\Category/edit.php | Файл: W:\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 38
+=================
+[2019-06-03 13:04:19] Текст ошибки: На найден вид W:\domains\ishop2.loc/app/views/admin\Category/edit.php | Файл: W:\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 38
+=================
+[2019-06-03 13:08:25] Текст ошибки: На найден вид W:\domains\ishop2.loc/app/views/admin\Category/edit.php | Файл: W:\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 38
+=================
+[2019-06-03 22:12:19] Текст ошибки: Контроллер app\controllers\admin\CacheController не найден | Файл: W:\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 36
+=================
+[2019-06-03 23:17:18] Текст ошибки: Failed to authenticate on SMTP server with username "sobolanua@ukr.net" using 2 possible authenticators | Файл: W:\domains\ishop2.loc\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | Строка: 181
+=================
+[2019-06-04 00:15:09] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`wch`.`product`, CONSTRAINT `product_ibfk_1` FOREIGN KEY (`id`) REFERENCES `attribute_product` (`product_id`)) | Файл: W:\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 186
+=================
+[2019-06-04 00:17:43] Текст ошибки: Failed to authenticate on SMTP server with username "sobolanua@ukr.net" using 2 possible authenticators | Файл: W:\domains\ishop2.loc\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | Строка: 181
+=================
