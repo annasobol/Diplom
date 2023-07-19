@@ -9,6 +9,6 @@
     "gabordemooij/redbean": "dev-master",
     "vlucas/valitron": "^1.4",
     "swiftmailer/swiftmailer": "^5.4",
-    "mpdf/mpdf": "^6.1"
+    "mpdf/mpdf": "^8.1"
   }
 }
